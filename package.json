@@ -1,0 +1,20 @@
+{
+  "name": "hello-coininfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nimiq/electrum-client": "github:nimiq/electrum-client#build",
+    "bitcoinjs-lib": "^6.0.2",
+    "coininfo": "^5.2.1",
+    "ecpair": "^2.0.1",
+    "electrum-client": "^0.0.6",
+    "tiny-secp256k1": "^2.2.1"
+  }
+}
